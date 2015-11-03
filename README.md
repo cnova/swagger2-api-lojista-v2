@@ -1,0 +1,1 @@
+#Swagger 2 - API de Lojistas V2 - Cnova
