@@ -46,6 +46,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "body",
                         "description": "Arquivo em formato <strong>JSON</strong> cujo conteúdo contêm uma lista de objetos product.",
                         "name": "products",
@@ -96,6 +110,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Data de envio do produto. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>purchasedAt={data inicial},{data final}</strong><br/><strong>purchasedAt={data inicial},*</strong><br/><strong>purchasedAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
@@ -211,6 +239,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Data de envio do produto. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>purchasedAt={data inicial},{data final}</strong><br/><strong>purchasedAt={data inicial},*</strong><br/><strong>purchasedAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
                         "name": "createdAt",
@@ -277,6 +319,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "body",
                         "description": "Arquivo em formato <strong>JSON</strong> cujo conteúdo contêm uma lista de objetos product.",
                         "name": "ordersTrackings",
@@ -324,6 +380,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Data de envio do produto. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>purchasedAt={data inicial},{data final}</strong><br/><strong>purchasedAt={data inicial},*</strong><br/><strong>purchasedAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
@@ -388,6 +458,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Parâmetro utilizado para indicar a posição do registro inicial que será trazido. A primeira posição é sempre zero (0).",
                         "name": "_offset",
@@ -431,6 +515,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "body",
                         "description": "Parâmetros para ativação/desativação massiva de produtos",
@@ -479,6 +577,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Parâmetro utilizado para indicar a posição do registro inicial que será trazido. A primeira posição é sempre zero (0).",
                         "name": "_offset",
@@ -522,6 +634,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "body",
                         "description": "Parâmetros para ativação/desativação massiva de produtos",
@@ -570,6 +696,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Parâmetro utilizado para indicar a posição do registro inicial que será trazido. A primeira posição é sempre zero (0).",
                         "name": "_offset",
@@ -613,6 +753,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "body",
                         "description": "Parâmetros para atualização massiva de estoque de produtos.",
@@ -667,6 +821,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "SKU ID do Lojista.",
                         "name": "skuSellerId",
@@ -703,6 +871,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "SKU do produto do lojista que deverá ser alterado.",
@@ -756,6 +938,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "SKU do produto do lojista que deverá ser alterado.",
                         "name": "skuSellerId",
@@ -803,6 +999,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Site do qual deseja consultar o produto. Se o parâmetro não for informado, serão trazidos apenas produtos do Extra. Consulte a lista completa de sites disponíveis no serviço <a href='#!/sites' target='_blank'><strong>GET /sites</strong></a>",
@@ -866,6 +1076,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "SKU ID do Lojista.",
                         "name": "skuSellerId",
@@ -911,6 +1135,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "SKU ID do Lojista.",
@@ -960,6 +1198,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "SKU ID do Lojista.",
                         "name": "skuSellerId",
@@ -1007,6 +1259,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "SKU ID do Lojista.",
@@ -1064,6 +1330,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Site do qual deseja consultar os produtos. Se o parâmetro não for informado, serão trazidos apenas produtos do Extra. Os possíveis sites são: 'EX', 'PF', 'CB', 'EH', 'BT', 'CD'. Consulte a lista completa de sites disponíveis no serviço <a href='#!/sites' target='_blank'><strong>GET /sites</strong></a>",
@@ -1127,6 +1407,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Parâmetro utilizado para indicar a posição inicial da consulta. O registro inicial tem índice zero (0), ou seja, para trazer os 10 primeiros registros, informa 0 para _offset e 10 para _limit.",
                         "name": "_offset",
@@ -1173,6 +1467,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "body",
                         "description": "Objeto para criação do pedido.",
@@ -1223,6 +1531,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Data de aprovação. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>approvedAt={data inicial},{data final}</strong><br/><strong>approvedAt={data inicial},*</strong><br/><strong>approvedAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
@@ -1300,6 +1622,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Data de cancelemento. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>canceledAt={data inicial},{data final}</strong><br/><strong>canceledAt={data inicial},*</strong><br/><strong>canceledAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
                         "name": "canceledAt",
@@ -1375,6 +1711,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Data de entrega. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>deliveredAt={data inicial},{data final}</strong><br/><strong>deliveredAt={data inicial},*</strong><br/><strong>deliveredAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
@@ -1452,6 +1802,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Data de compra. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>purchasedAt={data inicial},{data final}</strong><br/><strong>purchasedAt={data inicial},*</strong><br/><strong>purchasedAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
                         "name": "purchasedAt",
@@ -1527,6 +1891,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Data de envio. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>sentAt={data inicial},{data final}</strong><br/><strong>sentAt={data inicial},*</strong><br/><strong>sentAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
@@ -1604,6 +1982,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Data de envio. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>sentAt={data inicial},{data final}</strong><br/><strong>sentAt={data inicial},*</strong><br/><strong>sentAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas.",
                         "name": "sentAt",
@@ -1679,6 +2071,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Data de envio. Esse campo aceita um range de datas separados por vírgula, e os formatos aceitos para o campo são os seguintes:<br/><strong>sentAt={data inicial},{data final}</strong><br/><strong>sentAt={data inicial},*</strong><br/><strong>sentAt=*,{data final}</strong><br/>onde, o <strong>*</strong> é obrigatório e indica a que todas as datas antes ou depois da outra data passada devem ser consideradas",
@@ -1756,6 +2162,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "ID do pedido.",
                         "name": "orderId",
@@ -1803,6 +2223,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "ID do pedido.",
@@ -1852,6 +2286,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "body",
                         "name": "body",
@@ -1903,6 +2351,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "body",
                         "name": "body",
                         "required": true,
@@ -1952,6 +2414,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "body",
                         "name": "body",
@@ -2003,6 +2479,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "body",
                         "name": "body",
                         "required": true,
@@ -2053,6 +2543,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "body",
                         "name": "body",
                         "required": true,
@@ -2100,6 +2604,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "ID do pedido.",
                         "name": "orderId",
@@ -2144,6 +2662,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "query",
                         "description": "Utilizado para filtrar os tickets com um status específico. Aberto (opened), Em Monitoramento (attendance), Fechado (closed).",
@@ -2232,6 +2764,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "body",
                         "description": "Objeto Novo Ticket..",
                         "name": "newTicket",
@@ -2278,6 +2824,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "Identificador do  protocolo.",
@@ -2332,6 +2892,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "Identificador do  protocolo.",
@@ -2390,6 +2964,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "path",
                         "description": "Código do protocolo.",
                         "name": "code",
@@ -2446,6 +3034,20 @@
                     "application/json"
                 ],
                 "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
                     {
                         "in": "path",
                         "description": "Código do protocólo.",
@@ -2504,6 +3106,20 @@
                 ],
                 "parameters": [
                     {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
                         "in": "query",
                         "description": "Parâmetro utilizado para indicar a posição inicial da consulta. O registro inicial tem índice zero (0), ou seja, para trazer os 10 primeiros registros, informa 0 para _offset e 10 para _limit.",
                         "name": "_offset",
@@ -2522,6 +3138,15 @@
         },
         "/categories/{levelId}": {
             "get": {
+                "parameters": [
+                    {
+                        "in": "path",
+                        "description": "Id da categoria.",
+                        "name": "levelId",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "Indica que o processamento foi realizado corretamente e o retorno será conforme a expectativa.",
@@ -2556,20 +3181,27 @@
                 ],
                 "consumes": [
                     "application/json"
-                ],
-                "parameters": [
-                    {
-                        "in": "path",
-                        "description": "Id da categoria.",
-                        "name": "levelId",
-                        "required": true,
-                        "type": "string"
-                    }
                 ]
             }
         },
         "/sites": {
             "get": {
+                "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "Indica que o processamento foi realizado corretamente e o retorno será conforme a expectativa.",
@@ -2609,6 +3241,22 @@
         },
         "/warehouses": {
             "get": {
+                "parameters": [
+                    {
+                        "in": "header",
+                        "description": "Client ID disponibilizado na criação da APP",
+                        "name": "client_id",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "header",
+                        "description": "Access Token com as permissões de acesso.",
+                        "name": "access_token",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "Indica que o processamento foi realizado corretamente e o retorno será conforme a expectativa.",
